@@ -1,0 +1,22 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundstyle"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Patient"
+        android:id="@+id/adptn"
+        android:background="@drawable/buttonstyle1"
+        android:layout_margin="20dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Patient"
+        android:id="@+id/srchptn"
+        android:layout_margin="20dp"
+        android:background="@drawable/button2" />
+
+</LinearLayout>
